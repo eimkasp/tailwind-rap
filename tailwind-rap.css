@@ -1,0 +1,177 @@
+/* Tailwind-rap v0.01 */
+
+/* Replace your Bootstrap CSS with this file and get access to full compatibility between Tailwind CSS and Bootstrap v5 */
+
+/* Warning: This is an example, this is an experimental repository for exploring this concept */
+
+:root {
+    --primary-color: #3490dc;
+    --primary-color-hover: #2779bd;
+    --secondary-color: #6c757d;
+    --secondary-color-hover: #5a6268;
+    --success-color: #38c172;
+    --success-color-hover: #2d6a4f;
+    --danger-color: #e3342f;
+    --danger-color-hover: #cc1f1a;
+    --warning-color: #ffed4a;
+    --warning-color-hover: #ffe81f;
+    --info-color: #6cb2eb;
+    --info-color-hover: #5595dd;
+    --light-color: #f8f9fa;
+    --light-color-hover: #e2e6ea;
+    --dark-color: #343a40;
+    --dark-color-hover: #23272b;
+}
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+    border-radius: 0.25rem;
+    transition: all 0.15s ease-in-out;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    color: #fff;
+    border-color: var(--primary-color);
+}
+
+.btn-primary:hover {
+    background-color: var(--primary-color-hover);
+    border-color: var(--primary-color-hover);
+}
+
+.btn-secondary {
+    background-color: var(--secondary-color);
+    color: #fff;
+    border-color: var(--secondary-color);
+}
+
+.btn-secondary:hover {
+    background-color: var(--secondary-color-hover);
+    border-color: var(--secondary-color-hover);
+}
+
+.btn-success {
+    background-color: var(--success-color);
+    color: #fff;
+    border-color: var(--success-color);
+}
+
+.btn-success:hover {
+    background-color: var(--success-color-hover);
+    border-color: var(--success-color-hover);
+}
+
+.btn-danger {
+    background-color: var(--danger-color);
+    color: #fff;
+    border-color: var(--danger-color);
+}
+
+.btn-danger:hover {
+    background-color: var(--danger-color-hover);
+    border-color: var(--danger-color-hover);
+}
+
+.btn-warning {
+    background-color: var(--warning-color);
+    color: #212529;
+    border-color: var(--warning-color);
+}
+
+.btn-warning:hover {
+    background-color: var(--warning-color-hover);
+    border-color: var(--warning-color-hover);
+}
+
+.btn-info {
+    background-color: var(--info-color);
+    color: #fff;
+    border-color: var(--info-color);
+}
+
+.btn-info:hover {
+    background-color: var(--info-color-hover);
+    border-color: var(--info-color-hover);
+}
+
+.btn-light {
+    background-color: var(--light-color);
+    color: #212529;
+    border-color: var(--light-color);
+}
+
+.btn-light:hover {
+    background-color: var(--light-color-hover);
+    border-color: var(--light-color-hover);
+}
+
+.btn-dark {
+    background-color: var(--dark-color);
+    color: #fff;
+    border-color: var(--dark-color);
+}
+
+.btn-dark:hover {
+    background-color: var(--dark-color-hover);
+    border-color: var(--dark-color-hover);
+}
+
+/* Cards */
+.card {
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    margin-bottom: 1rem;
+}
+
+.card-header {
+    background-color: #f7fafc;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+    padding: 0.75rem 1.25rem;
+}
+
+.card-body {
+    padding: 1.25rem;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    margin-bottom: 0.75rem;
+}
+
+.card-subtitle {
+    color: #6c757d;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.card-text {
+    margin-bottom: 1rem;
+}
+
+.card-link {
+    color: #3490dc;
+    text-decoration: none;
+}
+
+.card-link:hover {
+    text-decoration: underline;
+}
+
+.card-footer {
+    background-color: #f7fafc;
+    border-top: 1px solid rgba(0, 0, 0, 0.125);
+    padding: 0.75rem 1.25rem;
+}
+
